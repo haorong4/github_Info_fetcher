@@ -2,7 +2,7 @@ import fetch from "node-fetch";
 import * as fs from "fs";
 
 //Getting your own github access token: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-const ACCESS_TOKEN = "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";
+const ACCESS_TOKEN = "";
 
 function findOwnerAndRepo(link) {
   const regex = /(\/(\w|-)+)/g;
